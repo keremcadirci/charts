@@ -53,7 +53,7 @@ resources: {}
   #  cpu: 100m
   #  memory: 128Mi
 persistence:
-  accessMode: 'ReadWriteOnce'
+  accessMode: 'ReadWriteMany'
   enabled: false
   size: 10Gi
   # storageClass: '-'
