@@ -52,15 +52,15 @@ podAnnotations: {}
 # additionals labels
 labels: {}
 
-esJavaOpts: "-Xmx1g -Xms1g"
+esJavaOpts: "-Xmx3g -Xms1g"
 
 resources:
   requests:
     cpu: "100m"
-    memory: "2Gi"
+    memory: "4Gi"
   limits:
     cpu: "1000m"
-    memory: "2Gi"
+    memory: "4Gi"
 
 initResources: {}
   # limits:
